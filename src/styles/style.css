@@ -1,7 +1,19 @@
-/** CSS STYLE **/
+:root {
+  --white-color: #fff;
+  --translucent-white-color: #d7ccc0;
+  --light-coloured-color: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-dark-color: #42413c;
+  --dark-color: #2a2626;
+  --translucent-dark-color: #908d8b;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
+}
 
-.hello {
-  display: block;
-
-  color: #fff;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
