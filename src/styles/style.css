@@ -8,6 +8,9 @@
   --translucent-dark-color: #908d8b;
   --brown-color: #b09a81;
   --blue-color: #1085c5;
+  --default-font-color: #2a2626;
+  --default-font-size: 16px;
+  --default-line-height: 1.6em;
 }
 
 *,
