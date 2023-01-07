@@ -64,3 +64,46 @@ h3 {
 .page-default {
   font-family: "Open Sans", sans-serif;
 }
+
+.section {
+  position: relative;
+
+  padding: 100px 165px;
+}
+
+.section-light {
+  background-color: var(--light-coloured-color);
+}
+
+.section-bg::before {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+.orange-text {
+  color: var(--orange-color);
+}
+
+.coding-man-img {
+  position: absolute;
+
+  top: 55px;
+  left: 461px;
+
+  z-index: 0;
+
+  height: 525px;
+}
