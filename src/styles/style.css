@@ -65,6 +65,7 @@ h3 {
 }
 
 .page-default {
+  font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -115,4 +116,18 @@ h3 {
 
 .zi1 {
   z-index: 1;
+}
+
+.flex {
+  display: flex;
+
+  column-gap: 30px;
+}
+
+.basis-half {
+  flex-basis: 50%;
+}
+
+.header-description {
+  margin-top: 185px;
 }
