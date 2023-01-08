@@ -39,8 +39,6 @@ h3,
 h4,
 h5,
 h6 {
-  position: relative;
-
   font-weight: 400;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
@@ -114,14 +112,6 @@ p ~ p {
   height: 525px;
 }
 
-.zi0 {
-  z-index: 0;
-}
-
-.zi1 {
-  z-index: 1;
-}
-
 .flex {
   display: flex;
 
@@ -134,4 +124,23 @@ p ~ p {
 
 .header-description {
   margin-top: 185px;
+}
+
+.btn {
+  display: inline-block;
+
+  padding: 12px 24px;
+
+  color: var(--white-color);
+
+  text-decoration: none;
+
+  background-color: var(--orange-color);
+  border: none;
+
+  cursor: pointer;
+}
+
+.more-detailed-btn {
+  margin-top: 40px;
 }
