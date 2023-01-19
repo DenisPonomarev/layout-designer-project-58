@@ -104,6 +104,10 @@ p ~ p {
   color: var(--orange-color);
 }
 
+.text-center {
+  text-align: center;
+}
+
 .coding-man-img {
   position: absolute;
 
@@ -147,4 +151,9 @@ p ~ p {
 
 .more-detailed-btn {
   margin-top: 40px;
+}
+
+.video-caption {
+  margin-top: 27px;
+  margin-bottom: 30px;
 }
